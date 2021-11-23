@@ -1,0 +1,73 @@
+@charset "utf-8";
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+img, object, embed, video {
+	max-width: 100%;
+}
+header {
+	margin-bottom: 10px;
+	width: 100%;
+}
+header img {
+	width: 100%;
+}
+body {
+    text-align: left;
+    width: 100%;
+    margin: auto;
+}
+nav {
+    width: 20%;  /* Este será el ancho que tendrá tu columna */
+    background-color: white;  /* Aquí pon el color del fondo que quieras para este lateral */
+    color: black;
+    float:left; /* Aquí determinas de lado quieres quede esta "columna" */
+    border-radius: 10px;
+    height: max-content;
+    margin: 5px;
+}
+nav li{
+    margin: 10px;
+}
+section {
+    width: 75%;
+    float: right;
+    background-color: #FFFFFF;
+    margin: 10px;
+}
+table{
+    display: block;
+}
+/*Nav Horizontal*/
+nav.horizontal ul li {
+    display: table-cell;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 10%;
+    text-align: center;
+    
+    background-color:#a53636;
+}
+nav.horizontal li{
+     color: #030303;
+}
+nav.horizontal {
+    display: table;
+    width: 100%;
+    margin: 2 auto;
+    float: none;
+}
+nav.horizontal ul {
+    display: table-row;
+    margin: 0;
+}
+nav.horizontal ul li:last-of-type {
+    margin-right: 10%;
+}
+nav.horizontal a {
+    color: #010101;
+}
